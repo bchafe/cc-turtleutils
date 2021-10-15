@@ -4,6 +4,7 @@ local function refuel()
             if (turtle.getItemDetail(i)["name"] == "minecraft:coal") then
                 return turtle.refuel(i)
             end
+        end
         return false
     end
 end
