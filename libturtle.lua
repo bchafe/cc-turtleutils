@@ -2,7 +2,7 @@
 local slotMem
 
 local function setSlotMem()
-    slotMem = getSelectedSlot()
+    slotMem = turtle.getSelectedSlot()
 end
 
 local function getSlotMem()
